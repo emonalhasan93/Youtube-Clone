@@ -215,3 +215,39 @@ nav{
     }
     
 }
+.video-list{
+    position: relative;
+    
+}
+.video-time{
+    position: absolute;
+  
+    bottom: 80px;
+    right: 20px;
+    background-color:black;
+    color: white;
+    font-weight: 500;
+    width: 35px;
+}
+
+
+
+/* play video page */
+
+.play-container{
+    padding-left: 2%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.play-video{
+    flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+}
+.play-video video{
+    width: 100%;
+}
