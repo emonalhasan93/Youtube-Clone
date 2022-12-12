@@ -146,6 +146,9 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.large-container{
+  padding-left: 7%;  
+}
 .list-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr ));
@@ -182,4 +185,33 @@ nav{
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
+}
+
+@media(max-width:900px)
+{
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container,.large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .emon-img{
+        display: block;
+        width: 30px;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    
+    }
+    .nav-middle .mike-icon{
+        display: none;
+    }
+    
 }
