@@ -223,11 +223,27 @@ nav{
     position: absolute;
   
     bottom: 80px;
-    right: 20px;
+    right: 10px;
     background-color:black;
     color: white;
-    font-weight: 500;
-    width: 35px;
+    font-weight: 700;
+    width: 37px;
+    
+    border-radius: 4px;
+    text-align: center;
+}
+.video-times{
+    position: absolute;
+    bottom:65px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    width: 37px;
+    border-radius: 4px;
+    text-align: center;
+
+
 }
 
 
@@ -250,4 +266,20 @@ nav{
 }
 .play-video video{
     width: 100%;
+}
+
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+   
+}
+.side-video-list img{
+    width: 100%;
+}
+.side-video-list .small-thumbnail{
+    flex-basis: 49%;
+}
+.side-video-list .video-info{
+    flex-basis: 49%;
 }
