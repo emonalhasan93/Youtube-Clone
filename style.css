@@ -387,6 +387,26 @@ nav{
     width: 100%;
     padding-top:10px ;
     background: transparent;
-    
 
+}
+@media (max-width:900px)
+{
+    .play-video{
+        flex-basis: 100%;
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+    .video-description{
+        padding-left:0 ;
+    }
+    .play-video .video-info-play a
+    {
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
 }
