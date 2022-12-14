@@ -283,3 +283,37 @@ nav{
 .side-video-list .video-info{
     flex-basis: 49%;
 }
+.play-video .tag a{
+    color:#7d7dbd;
+    font-size: 13px;
+}
+.play-video h3{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+.play-video .video-info-play .para{
+    margin-top: -10px;
+    line-height:10px;
+}
+.play-video .video-info-play{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+
+}
+.play-video .video-info-play a img{
+    width: 20px;
+    margin-right:8px ;
+}
+.play-video .video-info-play a{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
