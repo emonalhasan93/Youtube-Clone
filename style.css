@@ -317,3 +317,41 @@ nav{
     align-items: center;
     margin-left: 15px;
 }
+.play-video hr{
+    border: 0;
+    height: 1px;
+    background:#ccc ;
+    margin: 10px 0;
+}
+.publish{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.publish div{
+    flex: 1;
+    line-height: 18px;
+}
+.publish div p{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.publish img{
+    width: 50px;
+    border-radius:50% ;
+    margin-right: 15px;
+}
+.publish div span{
+    font-size: 13px;
+    color:#5a5a5a;
+}
+.publish button{
+    background: red;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
